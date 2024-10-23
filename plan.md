@@ -1,33 +1,33 @@
 # CI/CD Pipeline Implementation Plan
 
 ## 1. Set up the Development Environment
-- [ ] Install necessary tools (Git, Docker, IDE of choice)
-- [ ] Create a new GitHub repository for the project
+- [x] Install necessary tools (Git, Docker, IDE of choice)
+- [x] Create a new GitHub repository for the project
 
 ## 2. Develop a Simple API
-- [ ] Choose a programming language and framework (e.g., Python with Flask)
-- [ ] Create a basic API with a few endpoints
-- [ ] Write unit tests for the API
+- [x] Choose a programming language and framework (e.g., Python with Flask)
+- [x] Create a basic API with a few endpoints
+- [x] Write unit tests for the API
 
 ## 3. Containerize the Application
-- [ ] Create a Dockerfile for the API
-- [ ] Build and test the Docker image locally
+- [x] Create a Dockerfile for the API
+- [x] Build and test the Docker image locally
 
 ## 4. Set up GitHub Actions
-- [ ] Create a `.github/workflows` directory in your repository
-- [ ] Create a YAML file for the CI/CD workflow
+- [x] Create a `.github/workflows` directory in your repository
+- [x] Create a YAML file for the CI/CD workflow
 
 ## 5. Implement Continuous Integration (CI)
-- [ ] Configure GitHub Actions to run on push and pull requests
-- [ ] Set up steps to:
-  - [ ] Install dependencies
+- [x] Configure GitHub Actions to run on push and pull requests
+- [x] Set up steps to:
+  - [x] Install dependencies
   - [ ] Run linters (e.g., flake8 for Python)
-  - [ ] Run unit tests
-  - [ ] Build the Docker image
+  - [x] Run unit tests
+  - [x] Build the Docker image
 
 ## 6. Implement Continuous Deployment (CD)
-- [ ] Add steps in the GitHub Actions workflow to:
-  - [ ] Push the Docker image to a registry (e.g., Docker Hub)
+- [x] Add steps in the GitHub Actions workflow to:
+  - [x] Push the Docker image to a registry (e.g., Docker Hub)
   - [ ] Deploy to the local Docker machine
 
 ## 7. Configure Local Docker Machine for Deployment
@@ -56,8 +56,8 @@
 - [ ] Explore infrastructure-as-code solutions (e.g., Terraform)
 
 ## Celebration Milestones 🎉
-- [ ] Successfully created the simple API
+- [x] Set up development environment and GitHub repository
+- [x] Successfully created the simple API
 - [ ] First successful GitHub Actions workflow run
 - [ ] First automated deployment to local Docker machine
 - [ ] Complete CI/CD pipeline functioning end-to-end
-
